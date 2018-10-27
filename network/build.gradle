@@ -30,6 +30,7 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation libraries.kotlinStdLib
     implementation libraries.appcompat
     implementation libraries.rxjava
     implementation libraries.rxandroid

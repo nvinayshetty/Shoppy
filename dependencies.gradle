@@ -10,6 +10,7 @@ ext {
             retrofit        : '2.4.0',
             rxjava          : "2.2.3",
             rxandroid       : "2.1.0",
+            dagger          : "2.18",
 
             //Unit Test
             junit           : '4.12',
@@ -32,10 +33,12 @@ ext {
             reftofit             : "com.squareup.retrofit2:retrofit:$versions.retrofit",
             retrofitGsonConvertor: "com.squareup.retrofit2:converter-gson:$versions.retrofit",
             retrofitRxAdapter    : "com.squareup.retrofit2:adapter-rxjava2:$versions.retrofit",
+            dagger               : "com.google.dagger:dagger:$versions.dagger",
+            daggerAndroidSupport : "com.google.dagger:dagger-android-support:$versions.dagger",
+            daggerCompiler       : "com.google.dagger:dagger-compiler:$versions.dagger",
 
             //Unit Test
             junit                : "junit:junit:$versions.junit",
-
             //Integration Test
             esspressoRunner      : "com.android.support.test:runner:$versions.esspressoRunner",
             esspressoCore        : "com.android.support.test.espresso:espresso-core:$versions.esspressoCore"
