@@ -29,12 +29,14 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation libraries.appcompat
+    implementation libraries.rxjava
+    implementation libraries.rxandroid
+    implementation libraries.reftofit
+    implementation libraries.retrofitGsonConvertor
+    implementation libraries.retrofitRxAdapter
 
+    //Unit test
     testImplementation libraries.junit
-
-    androidTestImplementation libraries.esspressoRunner
-    androidTestImplementation libraries.esspressoCore
 }
